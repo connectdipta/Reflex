@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "slug": "hennry-williams",
+    "name": "Dr. Hennry Williams",
+    "specialty": "Cognitive Behavioral Therapy",
+    "degree": "MBBS, MD Psychiatry",
+    "image": "/images/team1.jpg",
+    "rating": 4.9,
+    "patients": "1.2k+",
+    "experience": "12+ Years",
+    "bio": "Dr. Hennry Williams is a board-certified psychiatrist specializing in Cognitive Behavioral Therapy (CBT). With over 12 years of experience, he has helped thousands of patients overcome anxiety disorders and depression through personalized evidence-based approaches.",
+    "education": [
+      "MD in Psychiatry from Harvard Medical School",
+      "MBBS from Johns Hopkins University",
+      "Specialized Certification in Advanced CBT"
+    ],
+    "achievements": [
+      "Excellence in Mental Health Research Award 2022",
+      "Published author of 'The Mindful Path'",
+      "Keynote speaker at Global Mental Health Summit"
+    ],
+    "social": {
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "linkedin": "https://linkedin.com",
+      "instagram": "https://instagram.com"
+    }
+  },
+  {
+    "id": 2,
+    "slug": "jenni-parker",
+    "name": "Dr. Jenni Parker",
+    "specialty": "Anxiety & Depression",
+    "degree": "MBBS, DPM",
+    "image": "/images/team2.jpg",
+    "rating": 4.8,
+    "patients": "800+",
+    "experience": "8+ Years",
+    "bio": "Dr. Jenni Parker focuses on mood disorders and holistic psychiatric care. She believes in treating the whole person, integrating mindfulness and lifestyle changes alongside traditional psychiatric treatments.",
+    "education": [
+      "DPM from Stanford University",
+      "MBBS from University of Pennsylvania",
+      "Mindfulness-Based Stress Reduction (MBSR) Certified"
+    ],
+    "achievements": [
+      "Top Rated Psychiatrist in New York 2023",
+      "Founded 'Youth Mind' community project",
+      "Member of the American Psychiatric Association"
+    ],
+    "social": {
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "linkedin": "https://linkedin.com",
+      "instagram": "https://instagram.com"
+    }
+  },
+  {
+    "id": 3,
+    "slug": "morco-davis",
+    "name": "Dr. Morco Davis",
+    "specialty": "Trauma & PTSD",
+    "degree": "MBBS, PhD Psychology",
+    "image": "/images/team3.jpg",
+    "rating": 5.0,
+    "patients": "2.5k+",
+    "experience": "15+ Years",
+    "bio": "Dr. Morco Davis is a renowned expert in Trauma and PTSD. His research on neuroplasticity and recovery has shaped modern approaches to trauma therapy. He provides a safe, supportive environment for healing.",
+    "education": [
+      "PhD in Clinical Psychology from Yale University",
+      "MBBS from Oxford University",
+      "Trauma-Informed Care Specialist"
+    ],
+    "achievements": [
+      "Global Humanitarian Award for Trauma Support",
+      "Lead Researcher on Post-Traumatic Growth",
+      "Advisor to International Relief Organizations"
+    ],
+    "social": {
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "linkedin": "https://linkedin.com",
+      "instagram": "https://instagram.com"
+    }
+  },
+  {
+    "id": 4,
+    "slug": "sarah-chen",
+    "name": "Dr. Sarah Chen",
+    "specialty": "Mindfulness Therapy",
+    "degree": "MBBS, MD Psychiatry",
+    "image": "/images/team5.jpg",
+    "rating": 4.7,
+    "patients": "1k+",
+    "experience": "10+ Years",
+    "bio": "Dr. Sarah Chen integrates mindfulness practices into her psychiatric care. She specializes in helping high-performing professionals manage stress and prevent burnout through meditative techniques and cognitive restructuring.",
+    "education": [
+      "MD in Psychiatry from Columbia University",
+      "MBBS from University of Toronto",
+      "Zen Meditation Practitioner (15 years)"
+    ],
+    "achievements": [
+      "Innovator in Occupational Mental Health",
+      "Featured expert in Wellness Weekly",
+      "Creator of the 'Mindful Work' program"
+    ],
+    "social": {
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "linkedin": "https://linkedin.com",
+      "instagram": "https://instagram.com"
+    }
+  }
+]

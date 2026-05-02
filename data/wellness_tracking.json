@@ -1,0 +1,40 @@
+{
+  "weeklyStats": [
+    { "day": "Mon", "mood": 70, "sleep": 6, "meditation": 15 },
+    { "day": "Tue", "mood": 65, "sleep": 7, "meditation": 20 },
+    { "day": "Wed", "mood": 85, "sleep": 8, "meditation": 30 },
+    { "day": "Thu", "mood": 80, "sleep": 7, "meditation": 25 },
+    { "day": "Fri", "mood": 90, "sleep": 8, "meditation": 45 },
+    { "day": "Sat", "mood": 95, "sleep": 9, "meditation": 60 },
+    { "day": "Sun", "mood": 88, "sleep": 8, "meditation": 40 }
+  ],
+  "moodDistribution": [
+    { "name": "Happy", "value": 45, "color": "#00f2fe" },
+    { "name": "Calm", "value": 30, "color": "#4facfe" },
+    { "name": "Stressed", "value": 15, "color": "#f093fb" },
+    { "name": "Sad", "value": 10, "color": "#f5576c" }
+  ],
+  "goals": [
+    { "title": "Daily Meditation", "target": 30, "current": 25, "unit": "mins" },
+    { "title": "Sleep Quality", "target": 8, "current": 7.5, "unit": "hrs" },
+    { "title": "Social Interaction", "target": 5, "current": 3, "unit": "chats" }
+  ],
+  "consultations": [
+    {
+      "id": "APT-782",
+      "doctor": "Dr. Hennry Williams",
+      "date": "2024-04-28",
+      "status": "Completed",
+      "response": "Patient shows significant improvement in anxiety management. Recommended continuing the breathing exercises and maintaining the reading therapy schedule.",
+      "prescribedService": "Reading Therapy"
+    },
+    {
+      "id": "APT-901",
+      "doctor": "Dr. Sarah Chen",
+      "date": "2024-05-02",
+      "status": "Pending",
+      "response": "Awaiting initial assessment.",
+      "prescribedService": "Mindfulness"
+    }
+  ]
+}
