@@ -279,41 +279,33 @@ reflex/
 Create a `.env.local` file in the project root with the following variables:
 
 ```env
-# Database
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/reflex?retryWrites=true&w=majority
+# MongoDB Connection String
+MONGODB_URI=mongodb://username:password@cluster.mongodb.net:27017,ac-j2tg1yw-shard-00-01.cluster.net:27017/reflexDB?ssl=true&replicaSet=your-replica-set&authSource=admin&retryWrites=true&w=majority
+
+# JWT Configuration
+JWT_SECRET=your_jwt_secret_key_here
+
+# OpenRouter Configuration (AI Chat Support)
+OPENROUTER_API_KEY=your_openrouter_api_key
+OPENROUTER_MODEL=google/gemini-2.0-flash-001
 
 # Firebase Configuration
 NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.firebasestorage.app
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your_measurement_id
 
-# JWT Secret
-JWT_SECRET=your_secret_key_here
+# ImgBB Configuration (Image Hosting)
+NEXT_PUBLIC_IMGBB_API_KEY=your_imgbb_api_key
 
-# API Base URL
-NEXT_PUBLIC_API_BASE_URL=http://localhost:3000/api
-
-# Google OAuth (optional)
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-
-# Image Hosting (ImgBB)
-IMGBB_API_KEY=your_imgbb_api_key
-
-# Email Service (optional)
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=587
-SMTP_USER=your_email@gmail.com
-SMTP_PASS=your_app_password
-
-# Payment Gateway (if applicable)
-STRIPE_SECRET_KEY=your_stripe_secret
-STRIPE_PUBLISHABLE_KEY=your_stripe_publishable
+# API URL
+NEXT_PUBLIC_API_URL=http://localhost:3000
 ```
+
+**Note:** For production, ensure all sensitive credentials are securely stored in your deployment platform (Vercel environment variables, GitHub secrets, etc.).
 
 ---
 
@@ -439,7 +431,7 @@ This project is licensed under the MIT License - see [LICENSE](./LICENSE) file f
 ## 🔗 Demo
 
 **Live Preview:**  
-[Reflex Mental Wellness Platform](https://reflex-wellness.vercel.app/)
+[Reflex Mental Wellness Platform](https://reflex-gray.vercel.app/)
 
 ---
 
