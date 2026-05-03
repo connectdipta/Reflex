@@ -123,12 +123,12 @@ export default function Psychiatrists() {
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -50 }}
                 transition={{ duration: 0.4 }}
-                className="grid sm:grid-cols-2 md:grid-cols-3 gap-6"
+                className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 transform-gpu"
               >
                 {mounted && getVisibleDoctors().map((doctor, i) => (
                   <div
                     key={i}
-                    className="glass-card-hover text-center p-8 group relative"
+                    className="glass-card-hover text-center p-8 group relative transform-gpu will-change-transform"
                   >
                     {/* Link overlay for the whole card but excluding social icons */}
                     <Link href={`/psychiatrists/${doctor.slug}`} className="absolute inset-0 z-0" aria-label={`View details of ${doctor.name}`} />
@@ -145,7 +145,7 @@ export default function Psychiatrists() {
                     <motion.div
                       animate={{ rotate: 360 }}
                       transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}
-                      className="absolute -inset-2 border border-dashed border-primary-500/20 rounded-full"
+                      className="absolute -inset-2 border border-dashed border-primary-500/20 rounded-full transform-gpu will-change-transform"
                     />
                   </div>
 

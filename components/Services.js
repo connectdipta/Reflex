@@ -124,8 +124,8 @@ export default function Services() {
            style={{ backgroundImage: 'linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
 
       {/* Dynamic Background Elements */}
-      <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-primary-500/10 blur-[120px] rounded-full animate-pulse" />
-      <div className="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-teal-500/10 blur-[120px] rounded-full animate-pulse" style={{ animationDelay: '2s' }} />
+      <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-primary-500/10 blur-[120px] rounded-full animate-pulse transform-gpu will-change-[opacity,transform]" />
+      <div className="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-teal-500/10 blur-[120px] rounded-full animate-pulse transform-gpu will-change-[opacity,transform]" style={{ animationDelay: '2s' }} />
 
       <div className="max-w-7xl mx-auto relative px-4">
         <motion.div
@@ -163,13 +163,13 @@ export default function Services() {
                 key={i}
                 variants={cardVariants}
                 whileHover={{ y: -12 }}
-                className="group relative"
+                className="group relative will-change-transform transform-gpu"
                 onClick={() => handleExplore(service.link)}
               >
                 {/* Glow Effect */}
-                <div className={`absolute -inset-0.5 bg-gradient-to-br ${service.color} rounded-[2.5rem] opacity-0 group-hover:opacity-20 transition-opacity duration-500 blur-xl`} />
+                <div className={`absolute -inset-0.5 bg-gradient-to-br ${service.color} rounded-[2.5rem] opacity-0 group-hover:opacity-20 transition-opacity duration-500 blur-xl transform-gpu`} />
                 
-                <div className="relative h-full glass-card p-8 md:p-10 border-white/5 bg-white/[0.02] backdrop-blur-2xl rounded-[2.5rem] flex flex-col items-start overflow-hidden group-hover:border-white/10 transition-all duration-500">
+                <div className="relative h-full glass-card p-8 md:p-10 border-white/5 bg-white/[0.02] backdrop-blur-2xl rounded-[2.5rem] flex flex-col items-start overflow-hidden group-hover:border-white/10 transition-all duration-500 transform-gpu">
                   {/* Category Badge */}
                   <div className="flex justify-between w-full items-center mb-8">
                     <span className="px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-[10px] font-bold uppercase tracking-widest text-gray-400 group-hover:text-primary-400 transition-colors">

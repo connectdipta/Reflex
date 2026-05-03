@@ -1,4 +1,3 @@
-'use client';
 import AOSInit from '@/components/AOSInit';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';

@@ -19,17 +19,17 @@ export default function Hero() {
         <motion.div
           animate={{ x: [0, 30, 0], y: [0, -20, 0] }}
           transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
-          className="absolute top-20 left-10 w-72 h-72 bg-primary-500/10 rounded-full blur-3xl"
+          className="absolute top-20 left-10 w-72 h-72 bg-primary-500/10 rounded-full blur-3xl will-change-transform transform-gpu"
         />
         <motion.div
           animate={{ x: [0, -20, 0], y: [0, 30, 0] }}
           transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
-          className="absolute bottom-20 right-10 w-96 h-96 bg-teal-500/8 rounded-full blur-3xl"
+          className="absolute bottom-20 right-10 w-96 h-96 bg-teal-500/8 rounded-full blur-3xl will-change-transform transform-gpu"
         />
         <motion.div
           animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.6, 0.3] }}
           transition={{ duration: 6, repeat: Infinity }}
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary-600/5 rounded-full blur-3xl"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary-600/5 rounded-full blur-3xl will-change-transform transform-gpu"
         />
 
         {/* Floating Particles */}
@@ -45,7 +45,7 @@ export default function Hero() {
               repeat: Infinity,
               delay: i * 0.5,
             }}
-            className="absolute w-2 h-2 rounded-full bg-primary-400/30"
+            className="absolute w-2 h-2 rounded-full bg-primary-400/30 will-change-transform transform-gpu"
             style={{
               top: `${20 + i * 12}%`,
               left: `${10 + i * 15}%`,
